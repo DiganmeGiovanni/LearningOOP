@@ -24,7 +24,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.learningoop.practica02;
+package com.learningoop.practica02_ObjetosComplejos;
 
 /**
  *                  - - - Introduccion a objetos 2 - - -

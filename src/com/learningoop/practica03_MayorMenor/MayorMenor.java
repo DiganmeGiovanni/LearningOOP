@@ -24,7 +24,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.learningoop.practica03;
+package com.learningoop.practica03_MayorMenor;
 
 /**
  *      --- El EJERCICIO CONSISTE EN LO SIGUIENTE ---

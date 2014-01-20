@@ -24,7 +24,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.learningoop.practica04;
+package com.learningoop.practica04_SwitchAndIf;
 
 /**
  *      - - - EL EJERCICIO ES EL SIGUIENTE - - -

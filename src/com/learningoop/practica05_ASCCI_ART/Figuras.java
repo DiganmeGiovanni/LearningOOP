@@ -24,7 +24,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.learningoop.practica05;
+package com.learningoop.practica05_ASCCI_ART;
 
 /**
  *      - - - EJERCICIO - - -

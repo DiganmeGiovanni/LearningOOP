@@ -24,28 +24,43 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.learningoop.practica04;
+package com.learningoop.practica05_ASCCI_ART;
 
 /**
- * Hacer pruebas de los metodos de la clase
- * SwithVSif
- *
+ * Crear un objeto de la clase 'Figuras' y probar el funcionamiento de sus
+ * metodos.
+ * 
  * @author Aguirre Alvarez J Giovanni
  */
-public class AppSwitchVSif 
+public class AppFiguras 
 {
     public static void main(String[] args)
     {
-        // Creamos un objeto utilizando el constructor sin parametros
-        SwitchVSif obj = new SwitchVSif();
+        Figuras obj = new Figuras(8);
 
-        // Asignamos valores a las variables mediante los setters
-        obj.setCf(10);
-        obj.setCl('A');
+        System.out.println("TRIANGULO IZQUIERDO DESCENDENTE:");
+        obj.tid(obj.getN(), '▲');
 
-        // Hacemos llamadas a los metodos
-        obj.califNum();
-        obj.califLetra();
+        System.out.println("\nTRIANGULO IZQUIERDO ASCENDENTE:");
+        obj.tia(obj.getN(), '^');
+
+        System.out.println("\nTRIANGULO DERECHO DESCENDENTE:");
+        obj.tdd(obj.getN(), '*');
+
+        System.out.println("\nTRIANGULO DERECHO ASCENDENTE:");
+        obj.tda(obj.getN(), '@');
+
+        System.out.println("\nTRIANGULO INVERTIDO:");
+        obj.tinv(obj.getN(),'+');
+
+        System.out.println("\nRELOJ DE ARENA:");
+        obj.reloj(obj.getN(), '$');
+
+        System.out.println("\nRELOJ DE ARENA RECURSIVO:");
+        obj.relojRecursivo(15, '=', 10);
+
+        System.out.println("Genial !!");
 
     }
+
 }
