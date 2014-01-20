@@ -24,20 +24,52 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.learningoop.practica07_MatricesSimples;
+package com.learningoop.practica08_Strings;
 
 /**
- * Crear un objeto de la clase Matrices y hacer una llamada a su metodo desp()
+ * - Declarar un arreglo de Strings
+ * - Crear un constructor que inicialice el arreglo y asigne valores a cada posicion
+ * - Crear un metodo que despliegue en pantalla el contenido del arreglo
+ * - Crear un metodo que ordene (mediante el algoritmo burbuja y el metodo compareTo())
+ *   el arreglo
  * 
  * @author Aguirre Alvarez J Giovanni
  */
-public class PrbMatrices
+public class Cadenas
 {
+    String [] cads;
 
-    public static void main(String[] args)
+    public Cadenas()
     {
-       Matrices obj = new Matrices(5, 10);
-       obj.desp();
+        cads = new String [3];
+        cads [0] = "Crisel";
+        cads [1] = "Aleks";
+        cads [2] = "Claudia";
+    }
+
+    public void desp()
+    {
+        for (String elemento: cads)
+        {
+            System.out.println(elemento);
+        }
+    }
+
+    //Metodo de la bubuja
+    public void ordena()
+    {
+        for (int i=0; i<cads.length - 1; i++)
+        {
+            for (int j=0; j<cads.length-1-i; j++)
+            {
+                if (cads[j].compareTo(cads[j+1]) > 0)
+                {
+                    String aux = cads[j];
+                    cads [j] = cads [j+1];
+                    cads [j+1] = aux;
+                }
+            }
+        }
     }
 
 }
