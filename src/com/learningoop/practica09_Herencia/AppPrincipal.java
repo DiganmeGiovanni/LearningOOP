@@ -33,7 +33,7 @@ package com.learningoop.practica09_Herencia;
  * 
  * @author Aguirre Alvarez J Giovanni
  */
-public class PrbPrincipal
+public class AppPrincipal
 {
     public static void main(String[] args)
     {
