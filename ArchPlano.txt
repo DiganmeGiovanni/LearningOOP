@@ -1,4 +1,2 @@
-Crisel
-Y
-Giovanni
-Siemmpre <3
+Aprendiendo Programacion
+Orientada a objetos
